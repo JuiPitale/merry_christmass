@@ -1,0 +1,32 @@
+  #include <iostream>
+using namespace std;
+
+int main() { int k=11;
+   for(int i=1;i<=5;i++)
+   {
+       for(int j=(k-1-i);j>=0;j--)
+       {
+           cout<<" ";
+       }
+       for(int n=1;n<=i;n++)
+       {
+           cout<<"* ";
+       }
+        cout<<"\n";
+        
+   }
+      for(int i=1;i<=2;i++)
+      {
+          for(int j=1;j<=(k+1);j++)
+          {
+              if (j<=(k-2))
+              cout<<" ";
+              else
+              cout<<"|";
+          }
+          cout<<"\n";
+      }
+      cout<<"MERRY CHRISTMAS!!!!";
+      
+    return 0;
+}
